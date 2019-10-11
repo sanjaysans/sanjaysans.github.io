@@ -4,7 +4,7 @@ This is a resume and CV theme for Bootstrap created by [Start Bootstrap](http://
 
 ## Preview
 
-[![Resume Preview](https://github.com/sanjaysans/sanjaysans.github.io/tree/master/img/preview.png)](https://sanjaysans.github.io/)
+[![Resume Preview](https://raw.githubusercontent.com/sanjaysans/sanjaysans.github.io/master/img/preview.png)](https://sanjaysans.github.io/)
 
 **[View Live Preview](https://sanjaysans.github.io/)**
 

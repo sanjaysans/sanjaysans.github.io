@@ -1,352 +1,690 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 
+<html lang="en-gb" class="no-js">
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <script data-ad-client="ca-pub-5316638887288214" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <title>Sanjay Kumar S M</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
-  
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Sanjay Kumar S M</title>
+    <meta name="description" content="Personal Resume">
+    <meta name="author" content="Sanjay Kumar S M">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top logo"><b>Sanjay Kumar</b></a>
+                </div>
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                        <!-- <li><a href="#aboutUs" class="scroll-link">About Me</a></li> -->
+                        <li><a href="#experience" class="scroll-link">Experience</a></li>
+                        <li><a href="#skills" class="scroll-link">Skills</a></li>
+                        <li><a href="#education" class="scroll-link">Education</a></li>
+                        <li><a href="#projects" class="scroll-link">Projects</a></li>
+                        <li><a href="#contactUs" class="scroll-link">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="#top"></div>
+    <section id="home">
+        <div class="banner-container">
+            <img src="images/bg.jpg" alt="banner" />
+            <div class="container banner-content">
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>Backend Developer</h2>
+                        <p>Develop API servers using NodeJS.</p>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Microservice Developer</h2>
+                        <p>Play around with docker & kubernetes.</p>
+                        <div class="da-img"></div>
+                    </div>
+                    <div class="da-slide">
+                        <h2>Freelance Developer</h2>
+                        <p>Provide backend services to clients.</p>
+                        <div class="da-img"></div>
+                    </div>
+				    <nav class="da-arrows">
+                        <span class="da-arrows-prev"></span>
+                        <span class="da-arrows-next"></span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="introText">
+        <div class="container">
+            <div class="text-center">
+            <h1>I work on the most intensive part of a product. Yes I'm a Backend Developer!</h1>
+            <p></p>
+       </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+            <div class="container secPad text-center">
+				<h2>If I asked people what they wanted, they would have said ‘Faster Horses’.</h2><h3>-Henry Ford</h3>
+            </div>
+        </div>
+    </section> -->
+    
+    <section id="experience" class="secPad">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Professional Experience</h2>
+                <p>Developed API servers and microservices using NodeJS and Docker.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center tileBox experience">
+                    <div class="txtHead">
+                        <h3>BACKEND DEVELOPER</h3>
+                        <h3>INTERN @ XOXODAY</h3>
+                        <span>Dec 2020 - Curr.</span>
+                    </div>
+                    <p>Working with backend microservices for a reward platform using NodeJS, GraphQL, MySQL, Redis Bull Queue & Mocha.</p>
+                </div>
+
+                <div class="col-md-4 text-center tileBox experience">
+                    <div class="txtHead">
+                        <h3>BACKEND DEVELOPER</h3>
+                        <h3>FREELANCER</h3>
+                        <span>Jun 2020 - FEB 2021</span>
+                    </div>
+                    <p>Worked on API server development for poker app using Typescript, GraphQL, PostgreSQL, Redis & Jest.</p>
+                </div>
+
+                <div class="col-md-4 text-center tileBox experience">
+                    <div class="txtHead">
+                        <h3>MICROSERVICE DEVELOPER</h3>
+                        <h3>INTERN @ VIRTUSA</h3>
+                        <span>May 2019 - Nov 2019</span>
+                    </div>
+                    <p>Worked on backend microservices for an IoT Platform using NestJS, MongoDB, Jest, Docker, Kubernetes, Istio & GCP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="secPad white">
+    	<div class="container">
+        <div class="heading text-center">
+                <h2>My Skills</h2>
+                <p>I work on the most intensive part of a product. Yes I'm a Backend Developer!</p>
+            </div>
+        	<div class="row">
+                <div class="col-sm-6">
+                    <h2>Developer <strong>Skills</strong></h2>
+                    <!-- <p class="mrgBtm20"></p> -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">NODEJS</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">TYPESCRIPT</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">GRAPHQL</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">JEST/MOCHA</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">FLUTTER</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+                <div class="col-sm-6">
+                    <h2>Database <strong>Skills</strong></h2>
+                    <!-- <p class="mrgBtm20"></p> -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">MongoDB</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">PostgreSQL</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">MySQL</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">Redis</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Cloud <strong>Skills</strong></h2>
+                    <!-- <p class="mrgBtm20"></p> -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">GCP</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">AWS IOT</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">AZURE IOT</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Microservice <strong>Skills</strong></h2>
+                    <!-- <p class="mrgBtm20"></p> -->
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">DOCKER</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">KUBERNETES</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skilltitle">ISTIO</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section id="education" class="secPad">
+    	<div class="container">     
+            <div class="heading text-center">
+                    <h2>Education</h2>
+                    <p>The purpose of education is to make minds not career!</p>
+            </div>
+            <div id="timeline">
+                <div class="row timeline-movement timeline-movement-top">
+                    <div class="timeline-badge timeline-future-movement">
+                        <a>
+                            <span class="glyphicon glyphicon-time"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row timeline-movement">
+                
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Aug</span>
+                        <span class="timeline-balloon-date-month">2016</span>
+                    </div>
+                
+                
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">COLLEGE OF ENGINEERING GUINDY</span></li>
+                                        <li><span class="causale">M.Sc., Computer Science | CGPA: 8.52</span> </li>
+                                        <li><p><small class="text-muted"> Aug 2016 - Present</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row timeline-movement">
+                
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Jun</span>
+                        <span class="timeline-balloon-date-month">2015</span>
+                    </div>
+                
+                    <div class="col-sm-offset-6 col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-11">
+                                <div class="timeline-panel debits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">A.M.M MAT. HR. SEC. SCHOOL</span></li>
+                                        <li><span class="causale">HIGHER SECONDARY EXAMINATION | Score: 96.5%</span> </li>
+                                        <li><p><small class="text-muted">Jun 2015 - Mar 2016</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row timeline-movement">
+                
+                    <div class="timeline-badge">
+                        <span class="timeline-balloon-date-day">Jun</span>
+                        <span class="timeline-balloon-date-month">2013</span>
+                    </div>
+                
+                    <div class="col-sm-6  timeline-item">
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="timeline-panel credits">
+                                    <ul class="timeline-panel-ul">
+                                        <li><span class="importo">A.M.M MAT. HR. SEC. SCHOOL</span></li>
+                                        <li><span class="causale">SSLC | Score: 93.6%</span> </li>
+                                        <li><p><small class="text-muted">Jun 2013 - Mar 2014</small></p> </li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="secPad white">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Projects</h2>
+                <p>To know more about my projects, <a href="https://github.com/sanjaysans" target="_blank">Click here!</a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center tileBox projects">
+                    <div class="txtHead">
+                        <h3>FOOD ORDERING APP</h3>
+                        <h3>CASSIA</h3>
+                        <span>Aug 2020 - Oct 2020</span>
+                    </div>
+                    <p>A Flutter App for ordering food online from college canteen. It also has an payment gateway integration.</p>
+                </div>
+
+                <div class="col-md-4 text-center tileBox projects">
+                    <div class="txtHead">
+                        <h3>ATTENDANCE APP</h3>
+                        <h3>MY CLASS</h3>
+                        <span>Apr 2020 - May 2020</span>
+                    </div>
+                    <p>A mobile app to mark and view attendance with Role Based Access control. Also has a NodeJS server for enrolment process.</p>
+                </div>
+
+                <div class="col-md-4 text-center tileBox projects">
+                    <div class="txtHead">
+                        <h3>VECHICLE TRACKING APP</h3>
+                        <h3>LORA TRACK</h3>
+                        <span>Jan 2019 - Feb 2019</span>
+                    </div>
+                    <p>It is a prototype for LoRa based location tracking system to track location of vehicle in realtime with LoRa network.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center tileBox projects">
+                    <div class="txtHead">
+                        <h3>BOOK EXCHANGE APP</h3>
+                        <h3>BOOK OLX</h3>
+                        <span>Nov 2018 - Dec 2018</span>
+                    </div>
+                    <p>It is an android app for exchanging books and study materials within the University by posting ads on the app.</p>
+                </div>
+
+                <div class="col-md-4 text-center tileBox projects">
+                    <div class="txtHead">
+                        <h3>FACE RECOGNITION</h3>
+                        <h3>TOUCHLESS ATTENDANCE</h3>
+                        <span>May 2018 - Jun 2018</span>
+                    </div>
+                    <p>It is a Face recognition based attendance marking system with a role based access control platform to manage attendance.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Sanjay Kumar S M</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#project">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#certification">Certifications</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li> -->
-      </ul>
-    </div>
-  </nav>
+    <!-- <section id="portfolio" class="page-section section appear clearfix secPad">
+        <div class="container">
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Sanjay 
-          <span class="text-primary">Kumar S M</span>
-        </h1>
-        <div class="subheading mb-5">Backend Developer | Microservice Developer | Freelancer<br>No:11/6, F3 Nithya flats, Naidu 4th street, Kottur, chennai 600085, India <br> 
-          <a href="mailto:smskumar515@gmail.com">smskumar515@gmail.com</a> <br>
-          +91 9092701806
-        </div>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/sanjay-kumar-977a9a155/">
-            <i class="fab fa-linkedin-in" title="LinkedIn"></i>
-          </a>
-          <a href="https://github.com/sanjaysans">
-            <i class="fab fa-github" title="GitHub"></i>
-          </a>
-          <a href="https://twitter.com/SanjayK65228523?s=09">
-            <i class="fab fa-twitter" title="Twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/sanjay.mohanraj.1">
-            <i class="fab fa-facebook-f" title="Facebook"></i>
-          </a>
-          <a href="https://www.freelancer.in/u/sanjaysans19">
-            <i class="fas fa-laptop-house" title="Freelancer"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">freelancer</h3>
-            <a href="https://www.freelancer.in/u/sanjaysans19" class="subheading mb-3">profile - sanjaysans19 </a>
-            <p>Worked on API development projects using Typescript, GraphQL, PostgreSQL & Jest. Created some flutter apps for helping the disabled peoples. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2020 - Curr.</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Internet Of Things</h3>
-            <div class="subheading mb-3">Intern Technology - Virtusa </div>
-            <p>During My Internship I was working on microservices using NestJS (A framework for NodeJS). I had a great learning experience learning about service mesh and sidecars. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2019 - Nov 2019</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="project">
-      <div class="w-100">
-        <h2 class="mb-5">Project</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Flutter App</h3>
-            <div class="subheading mb-3">
-              <!-- <a href="http://lotrack.appspot.com/"> -->
-                An app for Viewing and Marking Attendance
-             <!-- </a> -->
+            <div class="heading text-center">
+                <h2>Portfolio</h2>
+                <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
             </div>
-            <p>A mobile app to manage attendance with Role Based Access and a NodeJS server for enrolment. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Apr 2020 - May 2020</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Internet Of Things</h3>
-            <div class="subheading mb-3">
-              <!-- <a href="http://lotrack.appspot.com/"> -->
-                Vechicle Tracking Network
-             <!-- </a> -->
+            <div class="row">
+                <nav id="filter" class="col-md-12 text-center">
+                    <ul>
+                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                    </ul>
+                </nav>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                            <article class="col-sm-4 isotopeItem webdesign">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img1.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img1.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img2.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img2.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img3.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img3.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img4.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img4.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img5.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img5.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem webdesign">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img6.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img6.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img7.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img7.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img8.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img8.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-sm-4 isotopeItem print">
+                                <div class="portfolio-item">
+                                    <img src="images/portfolio/img9.jpg" alt="" />
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="images/portfolio/img9.jpg" class="fancybox">
+                                                <h5>Project Name</h5>
+                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
-            <p>It is a LoRa based location tracking system to track location of assets in realtime. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan 2019 - Feb 2019</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Android app</h3>
-            <div class="subheading mb-3">
-              <!-- <a href="https://github.com/sanjaysans/BookOlx"> -->
-                Book OLX 
-              <!-- </a> -->
-             </div>
-            <p>It is an android app for selling and buying books and study materials within the University. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Nov 2018 - Dec 2018</span>
-          </div>
         </div>
+    </section> -->
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Internet Of Things</h3>
-            <div class="subheading mb-3"> 
-              <!-- <a href="http://ceg.annauniv.edu/internship/2018/intern_one/Hostel/Hostel1.pdf"> -->
-                Facial Recognition System for Hostel Attendance 
-              <!-- </a> -->
+	<section id="contactUs" class="page-section secPad">
+        <div class="container">
+
+            <div class="row">
+                <div class="heading text-center">
+                    <!-- Heading -->
+                    <h2>Let's Keep In Touch!</h2>
+                    <p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
+                    <a href="/resume/resume.pdf" download><button class="btn btn-lg btn-primary">Download</button></a>
+                </div>
             </div>
-            <p>I created a student and staff portal APIs with different levels of access controls using NodeJS. It was a prototype which was developed for College Of Engineering Guindy. </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2018 - Jun 2018</span>
-          </div>
+
+            <div class="row mrgn30">
+
+                <form method="post" action="" id="contactfrm" role="form">
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                        </div>
+                        <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+                        <div class="result"></div>
+                    </div>
+                </form>
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                    <address>
+                        NO:11/6, F3 NITHYA FLATS,<br>
+                        NAIDU 4TH STREET, KOTTUR,<br>
+                        CHENNAI 600085, INDIA
+                        <br>
+                    </address>
+                    <h4>Phone:</h4>
+                    <address>
+                        +91 90927 10806<br>
+                    </address>
+                </div>
+            </div>
         </div>
-
-      </div>
-
     </section>
 
+    <footer>
+        <div class="container">
+            <div class="social text-center">
+                <a href="https://github.com/sanjaysans" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sanjay-kumar-977a9a155/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.freelancer.in/u/sanjaysans19" title="Freelancer" target="_blank"><i class="fa fa-desktop"></i></a>
+                <a href="mailto:smskumar515@gmail.com" title="GitHub" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
 
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">College Of Engineering Guindy</h3>
-            <div class="subheading mb-3">Master of Science</div>
-            <div>Computer Science</div>
-            <p>CGPA: 8.52</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Aug 2016 - Present</span>
-          </div>
+            <div class="clear"></div>
         </div>
+    </footer>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Higher Secondary Examination</h3>
-            <div class="subheading mb-3">A.M.M Mat. Hr. Sec. School</div>
-            <p>96.5%</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jun 2015 - Mar 2016</span>
-          </div>
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    Copyright 2020 | All Rights Reserved  -- Website by <a>Sanjay</a>
+                </div>
+            </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">SSLC</h3>
-            <div class="subheading mb-3">A.M.M Mat. Hr. Sec. School</div>
-            <p>93.6%</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jun 2013 - Mar 2014</span>
-          </div>
-        </div>
-
-      </div>
     </section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-        <div class="w-100">
-          <h2 class="mb-5">Skills</h2>
-  
-          <div class="subheading mb-3, text-primary">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">C</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">C++</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">NODEJS</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">NESTJS</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">GraphQL</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">Typescript</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">Jest</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">PYTHON</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">Flutter</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">Docker</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">Kubernetes</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">ISTIO</i>
-            </li>
-            <li class="list-inline-item, resume-content">
-              <i class="subheading mb-3">ENVOY</i>
-            </li>
-            <li class="list-inline-item">
-              <i class="subheading mb-3, text-primary">Cloud Platforms:</i>
-            </li>
-            <li class="list-inline-item">
-              <i class="subheading"> AWS, Azure, GCP, Thingworx, ThingsBoard</i>
-            </li>
-          </ul>
-
-        </div>
-      </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certification">
-      <div class="w-100">
-        <h2 class="mb-5">Certifications</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="resume-content">
-            <div class="subheading mb-3">1. Google Cloud Platform Fundamentals: Core Infrastructure – Cousera</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Apr 2020</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="resume-content">
-            <div class="subheading mb-3">2. Essential Google Cloud Infrastructure: Foundation – Cousera</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Apr 2020</span>
-          </div>
-        </div>
-        
-<!--         <a>Vistors Count</a>  -->
-<!--         <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=24f121203b72bfa2f199d0dff42cffdfa80be0c7'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/749256/t/5"></script> -->
-        
-<!--         <a href='https://www.symptoma.com/en/info/covid-19'>Vistors Count</a> 
-        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=24f121203b72bfa2f199d0dff42cffdfa80be0c7'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/749256/t/5"></script> -->
-
-      </div>
-    </section>
-
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+    <script src="js/modernizr-latest.js"></script>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <script src="js/jquery.cslider.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
-
 </html>

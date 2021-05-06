@@ -1,4 +1,4 @@
 # sanjaysans.github.io
-Computer Science Student's Professional Resume Template
+HTML & CSS Professional Resume Template For Freshers & Students.
 
 ## Live Demo - https://sanjaysans.github.io/

@@ -53,18 +53,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Animate blobs interactively
+    // Animate blobs interactively & mouse glow effect
     const blob1 = document.querySelector('.blob-1');
     const blob2 = document.querySelector('.blob-2');
     const blob3 = document.querySelector('.blob-3');
+    const mouseGlow = document.getElementById('mouse-glow');
 
     document.addEventListener('mousemove', (e) => {
         const x = e.clientX / window.innerWidth;
         const y = e.clientY / window.innerHeight;
 
+        // Custom mouse glow follower
+        if (mouseGlow) {
+            mouseGlow.style.opacity = '1';
+            mouseGlow.style.left = e.clientX + 'px';
+            mouseGlow.style.top = e.clientY + 'px';
+        }
+
         // Subtle parallax effect on background blobs
         if (blob1) blob1.style.transform = `translate(${x * 50}px, ${y * 50}px)`;
         if (blob2) blob2.style.transform = `translate(${-x * 50}px, ${-y * 50}px)`;
         if (blob3) blob3.style.transform = `translate(${x * 30}px, ${-y * 30}px) scale(1.1)`;
+    });
+
+    // Hide glow when mouse leaves window
+    document.addEventListener('mouseleave', () => {
+        if (mouseGlow) mouseGlow.style.opacity = '0';
     });
 });

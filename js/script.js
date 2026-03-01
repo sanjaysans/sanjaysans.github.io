@@ -1,48 +1,70 @@
-// Smooth scrolling for navigation links
-document.addEventListener('DOMContentLoaded', function() {
-    // Highlight active section based on scroll position
-    const sections = document.querySelectorAll('section');
-    
-    function highlightCurrentSection() {
-        const scrollPosition = window.scrollY;
-        
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop - 100;
-            const sectionHeight = section.offsetHeight;
-            
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                const id = section.getAttribute('id');
-                // Could add active class to navigation items if you add navigation
-            }
-        });
-    }
-    
-    window.addEventListener('scroll', highlightCurrentSection);
-    
-    // Add animation to elements when they come into view
-    const animateOnScroll = function() {
-        const elements = document.querySelectorAll('.experience-item, .achievement-item, .skill-category');
-        
-        elements.forEach(element => {
-            const elementPosition = element.getBoundingClientRect().top;
-            const screenPosition = window.innerHeight / 1.3;
-            
-            if (elementPosition < screenPosition) {
-                element.style.opacity = 1;
-                element.style.transform = 'translateY(0)';
-            }
-        });
-    };
-    
-    // Initial styling for animation
-    const animatedElements = document.querySelectorAll('.experience-item, .achievement-item, .skill-category');
-    animatedElements.forEach(element => {
-        element.style.opacity = 0;
-        element.style.transform = 'translateY(20px)';
-        element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
     });
-    
-    // Run animation on load and scroll
-    window.addEventListener('load', animateOnScroll);
-    window.addEventListener('scroll', animateOnScroll);
+
+    // Observer for reveal animations on scroll
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.15
+    };
+
+    const animateOnScroll = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('appear');
+                // Optional: unobserve if you only want it to animate once
+                // observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    const elementsToAnimate = document.querySelectorAll('.fade-in-up, .slide-in-left, .slide-in-right, .scale-up');
+    elementsToAnimate.forEach(el => animateOnScroll.observe(el));
+
+    // Active link highlighting based on scroll position
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            // Add offset for fixed navbar
+            if (pageYOffset >= (sectionTop - 150)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    });
+
+    // Animate blobs interactively
+    const blob1 = document.querySelector('.blob-1');
+    const blob2 = document.querySelector('.blob-2');
+    const blob3 = document.querySelector('.blob-3');
+
+    document.addEventListener('mousemove', (e) => {
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
+
+        // Subtle parallax effect on background blobs
+        if (blob1) blob1.style.transform = `translate(${x * 50}px, ${y * 50}px)`;
+        if (blob2) blob2.style.transform = `translate(${-x * 50}px, ${-y * 50}px)`;
+        if (blob3) blob3.style.transform = `translate(${x * 30}px, ${-y * 30}px) scale(1.1)`;
+    });
 });

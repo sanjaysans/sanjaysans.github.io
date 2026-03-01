@@ -1,160 +1,387 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanjay Kumar | Senior Software Developer</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="Senior Software Developer with 3+ years of experience in backend development, API integration, and building scalable systems.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <h1>SANJAY KUMAR</h1>
-                <h2>Senior Software Developer</h2>
-                <div class="contact-info">
-                    <p><i class="fas fa-phone"></i> +91 9092701806</p>
-                    <p><i class="fas fa-envelope"></i> smskumar515@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Chennai</p>
-                    <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/sanjay-kumar-977a9a155" target="_blank">linkedin.com/in/sanjay-kumar-977a9a155</a></p>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <section id="summary" class="section-padding">
-        <div class="container">
-            <h2 class="section-title">SUMMARY</h2>
-            <p>Senior Software Developer with 3+ years of experience in backend development, API integration, and building scalable systems. Skilled in designing payment solutions, optimizing performance, and leading technical projects. Passionate about using technology to solve real-world problems efficiently.</p>
-        </div>
-    </section>
+    <!-- Dynamic Background -->
+    <div class="bg-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
 
-    <section id="experience" class="section-padding">
-        <div class="container">
-            <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
-            
-            <div class="experience-item">
-                <div class="job-header">
-                    <h3>Senior Software Development Engineer</h3>
-                    <div class="company-details">
-                        <span class="company">Vegrow</span>
-                        <span class="location"><i class="fas fa-map-marker-alt"></i> Chennai</span>
-                        <span class="duration"><i class="far fa-calendar"></i> 04/2024 – Present</span>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">SK<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="container hero-content">
+                <div class="hero-text fade-in-up">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">Sanjay <span>Kumar</span></h1>
+                    <h2 class="role">Senior Software Developer</h2>
+                    <p class="summary">
+                        Senior Software Developer with 3+ years of experience in backend development, API integration,
+                        and building scalable systems. Skilled in designing payment solutions, optimizing performance,
+                        and leading technical projects. Passionate about using technology to solve real-world problems
+                        efficiently.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="resume/resume.pdf" download class="btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="contact-badges">
+                        <a href="mailto:smskumar515@gmail.com" class="badge" title="Email"><i
+                                class="fas fa-envelope"></i> smskumar515@gmail.com</a>
+                        <span class="badge" title="Phone"><i class="fas fa-phone"></i> +91 9092701806</span>
+                        <span class="badge" title="Location"><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                        <a href="https://linkedin.com/in/sanjay-kumar-977a9a155" target="_blank" class="badge highlight"
+                            title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/sanjaysans" target="_blank" class="badge highlight"
+                            title="GitHub"><i class="fab fa-github"></i> GitHub</a>
                     </div>
                 </div>
-                <ul class="job-responsibilities">
-                    <li>Built a multilingual voice agent prototype using Python 3.9 and Gemini Flash Exp with minimal latency; integrated Twilio/Exotel for telephony—projected to reduce ops manpower by 30%.</li>
-                    <li>Developed a certified farm marketplace app using basic DASH protocol with caching—reduced video buffering by 35%.</li>
-                    <li>Proposed and deployed infrastructure optimizations (NAT Gateway, CRON job migration to AWS EKS, SQL query optimization & indexing)—reduced API latency from 30s to 500ms.</li>
-                    <li>Designed and launched Instant Payment Service using ICICI and Razorpay payout APIs—now handling 6,000+ monthly IMPS/UPI transactions worth ₹20 Cr+ with 99.9% success rate.</li>
-                    <li>Engineered an in-memory graph-based material traceability system to improve ACP/ASP calculations—boosted pricing accuracy by 25%.</li>
-                </ul>
             </div>
+            <a href="#experience" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
 
-            <div class="experience-item">
-                <div class="job-header">
-                    <h3>Software Development Engineer</h3>
-                    <div class="company-details">
-                        <span class="company">Vegrow</span>
-                        <span class="location"><i class="fas fa-map-marker-alt"></i> Chennai</span>
-                        <span class="duration"><i class="far fa-calendar"></i> 04/2023 – 03/2024</span>
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Professional <span>Experience</span></h2>
+
+                <div class="timeline">
+                    <!-- Vegrow 1 -->
+                    <div class="timeline-item glass-card slide-in-left">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Senior Software Development Engineer</h3>
+                                <h4 class="company">Vegrow <span class="location"><i class="fas fa-map-marker-alt"></i>
+                                        Chennai</span></h4>
+                            </div>
+                            <div class="timeline-date">04/2024 – Present</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Built a multilingual voice agent prototype using <strong>Python 3.9</strong> and
+                                <strong>Gemini Flash Exp</strong> with minimal latency; integrated Twilio/Exotel for
+                                telephony—projected to reduce ops manpower by 30%.
+                            </li>
+                            <li>Developed a certified farm marketplace app using basic DASH protocol with
+                                caching—reduced video buffering by 35%.</li>
+                            <li>Proposed and deployed infrastructure optimizations (NAT Gateway, CRON job migration to
+                                AWS EKS, SQL query optimization & indexing)—reduced API latency from <strong>30s to
+                                    500ms</strong>.</li>
+                            <li>Designed and launched Instant Payment Service using ICICI and Razorpay payout APIs—now
+                                handling <strong>6,000+ monthly IMPS/UPI transactions worth ₹20 Cr+</strong> with 99.9%
+                                success rate.</li>
+                            <li>Engineered an in-memory graph-based material traceability system to improve ACP/ASP
+                                calculations—boosted pricing accuracy by 25%.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vegrow 2 -->
+                    <div class="timeline-item glass-card slide-in-right">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Development Engineer</h3>
+                                <h4 class="company">Vegrow <span class="location"><i class="fas fa-map-marker-alt"></i>
+                                        Chennai</span></h4>
+                            </div>
+                            <div class="timeline-date">04/2023 – 03/2024</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Integrated Finbox, Finstack (bank analysis), KYC, and UPI APIs—automated credit checks
+                                and onboarding; <strong>reduced verification time by 80%</strong>.</li>
+                            <li>Enforced business-specific credit/payment logic—cut overdue payments by 30%.</li>
+                            <li>Built a SQL CDC microservice for real-time cache invalidation and audit logging—achieved
+                                99.9% cache accuracy.</li>
+                            <li>Developed a scalable <strong>Golang</strong> notification system for WhatsApp, Slack,
+                                SMS & Firebase—handled <strong>1M+ messages/month</strong> with 98% delivery rate.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Xoxoday -->
+                    <div class="timeline-item glass-card slide-in-left">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Development Engineer</h3>
+                                <h4 class="company">Xoxoday <span class="location"><i class="fas fa-map-marker-alt"></i>
+                                        Bangalore</span></h4>
+                            </div>
+                            <div class="timeline-date">06/2021 – 03/2023</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Led integrations with HubSpot, ZohoCRM, SurveyMonkey, Typeform, and Zapier for reward
+                                workflow automation—increased new customer onboarding by 20%.</li>
+                            <li>Contributed to core backend services for consumer transactions and 3rd-party
+                                APIs—processed <strong>500K+ transactions</strong> with 99.8% uptime.</li>
+                            <li>Improved reliability using <strong>Redis Bull queues</strong> and fail-safe logic—cut
+                                job processing time by 50%, reduced transaction failures by 35%.</li>
+                            <li>Built scalable AWS-based services (Lambda, Cognito, SQS, SNS, SES, DynamoDB,
+                                EventBridge)—reduced infra costs by 20%.</li>
+                        </ul>
                     </div>
                 </div>
-                <ul class="job-responsibilities">
-                    <li>Integrated Finbox, Finstack (bank analysis), KYC, and UPI APIs—automated credit checks and onboarding; reduced verification time by 80%.</li>
-                    <li>Enforced business-specific credit/payment logic—cut overdue payments by 30%.</li>
-                    <li>Built a SQL CDC microservice for real-time cache invalidation and audit logging—achieved 99.9% cache accuracy.</li>
-                    <li>Developed a scalable Golang notification system for WhatsApp, Slack, SMS & Firebase—handled 1M+ messages/month with 98% delivery rate.</li>
-                </ul>
             </div>
+        </section>
 
-            <div class="experience-item">
-                <div class="job-header">
-                    <h3>Software Development Engineer</h3>
-                    <div class="company-details">
-                        <span class="company">Xoxoday</span>
-                        <span class="location"><i class="fas fa-map-marker-alt"></i> Bangalore</span>
-                        <span class="duration"><i class="far fa-calendar"></i> 06/2021 – 03/2023</span>
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Selected <span>Projects</span></h2>
+                <div class="grid-layout projects-grid">
+
+                    <div class="project-card glass-card scale-up">
+                        <div class="project-content">
+                            <h3>Food Ordering App - CASSIA</h3>
+                            <div class="project-date">Aug 2020 - Nov 2020</div>
+                            <p>Online food ordering app developed using Flutter & Firebase. It also has an integration
+                                with payment gateway (RazorPay) and wallet implementation.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanjaysans/Food-Ordering-App-Cassia" target="_blank"><i
+                                    class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.1s">
+                        <div class="project-content">
+                            <h3>Attendance App</h3>
+                            <div class="project-date">Apr 2020 - May 2020</div>
+                            <p>A mobile app developed with Flutter and Firebase to manage attendance, providing RBAC
+                                with different roles like staff, student, admin and also developed a dummy enrolment
+                                server with NodeJS.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanjaysans/Attendance-app" target="_blank"><i
+                                    class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.2s">
+                        <div class="project-content">
+                            <h3>Book_olx</h3>
+                            <div class="project-date">Nov 2018 - Dec 2018</div>
+                            <p>An android app for selling and buying used books inside a university and a NodeJS server
+                                for data management with MongoDB.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanjaysans/BookOlx" target="_blank"><i
+                                    class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.3s">
+                        <div class="project-content">
+                            <h3>Facial Recognition System</h3>
+                            <div class="project-date">May 2018 - Jun 2018</div>
+                            <p>Built a prototype for an IoT enabled attendance management system for University hostel.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sanjaysans/Face-Recognization" target="_blank"><i
+                                    class="fab fa-github"></i> Repository</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Technical <span>Skills</span></h2>
+                <div class="skills-grid">
+
+                    <div class="skill-category glass-card fade-in-up">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3>Languages & Frameworks</h3>
+                        <div class="tags">
+                            <span>Golang</span><span>Python (3.9+)</span><span>Ruby on
+                                Rails</span><span>Node.js</span><span>TypeScript</span><span>Express.js</span><span>HTML/CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.1s">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Databases & Messaging</h3>
+                        <div class="tags">
+                            <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Kafka</span><span>Amazon
+                                SQS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.2s">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Cloud & DevOps</h3>
+                        <div class="tags">
+                            <span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>GitHub
+                                Actions</span><span>CI/CD</span><span>AWS (Lambda, EC2, S3, DynamoDB, Cognito, SNS, SES,
+                                EventBridge)</span><span>GCP</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.3s">
+                        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                        <h3>API & Architecture</h3>
+                        <div class="tags">
+                            <span>RESTful APIs</span><span>Microservices</span><span>Webhooks</span><span>GraphQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.4s">
+                        <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                        <h3>Tools & Integrations</h3>
+                        <div class="tags">
+                            <span>HubSpot</span><span>ZohoCRM</span><span>Zapier</span><span>Razorpay</span><span>Twilio</span><span>Exotel</span><span>Firebase</span><span>Slack</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.5s">
+                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Testing & Monitoring</h3>
+                        <div class="tags">
+                            <span>RSpec</span><span>Jest</span><span>Testify</span><span>Postman</span><span>New
+                                Relic</span><span>CloudWatch</span><span>Signoz</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Honors and Education Dual Section -->
+        <section class="section" id="awards">
+            <div class="container">
+                <div class="awards-edu-grid">
+                    <!-- Awards -->
+                    <div class="awards-col">
+                        <h2 class="section-title fade-in-up">Honors & <span>Awards</span></h2>
+                        <div class="award-item glass-card slide-in-left">
+                            <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="award-details">
+                                <h3>Best Individual Contributor Award</h3>
+                                <div class="award-meta">Vegrow | 2025</div>
+                                <p>Awarded for architecting a low-latency multilingual AI Voice Agent using Gemini Flash
+                                    Exp and telephony platforms. Reduced ops workload by 30%.</p>
+                            </div>
+                        </div>
+                        <div class="award-item glass-card slide-in-left" style="transition-delay: 0.1s">
+                            <div class="award-icon"><i class="fas fa-award"></i></div>
+                            <div class="award-details">
+                                <h3>Best Team Innovation Award</h3>
+                                <div class="award-meta">Vegrow | 2025</div>
+                                <p>Recognized for designing and launching a real-time Instant Payment Service (₹20 Cr+
+                                    monthly processing) with 99.9% reliability, improving farmer trust.</p>
+                            </div>
+                        </div>
+                        <div class="award-item glass-card slide-in-left" style="transition-delay: 0.2s">
+                            <div class="award-icon"><i class="fas fa-medal"></i></div>
+                            <div class="award-details">
+                                <h3>2nd Place – Vetechathon</h3>
+                                <div class="award-meta">Vegrow | 2024</div>
+                                <p>Secured 2nd place in the company-wide hackathon by delivering a scalable,
+                                    event-driven backend architecture focused on automation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="education-col">
+                        <h2 class="section-title fade-in-up">Education</h2>
+                        <div class="education-item glass-card slide-in-right">
+                            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="edu-details">
+                                <h3>M.Sc. Computer Science (Integrated)</h3>
+                                <h4>CEG, Anna University</h4>
+                                <div class="edu-meta">
+                                    <span><i class="far fa-calendar"></i> Aug 2016 – Apr 2021</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                                </div>
+                                <div class="edu-score">CGPA: 8.64 / 10</div>
+                            </div>
+                        </div>
+
+                        <div class="education-item glass-card slide-in-right" style="transition-delay: 0.1s">
+                            <div class="edu-icon"><i class="fas fa-school"></i></div>
+                            <div class="edu-details">
+                                <h3>Higher Secondary Certificate (HSC)</h3>
+                                <h4>State Board</h4>
+                                <div class="edu-meta">
+                                    <span><i class="far fa-calendar"></i> 2015 – 2016</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education-item glass-card slide-in-right" style="transition-delay: 0.2s">
+                            <div class="edu-icon"><i class="fas fa-school"></i></div>
+                            <div class="edu-details">
+                                <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                                <h4>State Board</h4>
+                                <div class="edu-meta">
+                                    <span><i class="far fa-calendar"></i> 2013 – 2014</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <ul class="job-responsibilities">
-                    <li>Led integrations with HubSpot, ZohoCRM, SurveyMonkey, Typeform, and Zapier for reward workflow automation—increased new customer onboarding by 20%.</li>
-                    <li>Contributed to core backend services for consumer transactions and 3rd-party APIs—processed 500K+ transactions with 99.8% uptime.</li>
-                    <li>Improved reliability using Redis Bull queues and fail-safe logic—cut job processing time by 50%, reduced transaction failures by 35%.</li>
-                    <li>Built scalable AWS-based services (Lambda, Cognito, SQS, SNS, SES, DynamoDB, EventBridge)—reduced infra costs by 20%.</li>
-                </ul>
             </div>
-        </div>
-    </section>
-
-    <section id="education" class="section-padding">
-        <div class="container">
-            <h2 class="section-title">EDUCATION</h2>
-            <div class="education-item">
-                <h3>M.Sc. CS Integrated</h3>
-                <div class="education-details">
-                    <span class="institution">CEG, Anna University</span>
-                    <span class="duration"><i class="far fa-calendar"></i> 08/2016 – 04/2021</span>
-                    <span class="location"><i class="fas fa-map-marker-alt"></i> Chennai</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="achievements" class="section-padding">
-        <div class="container">
-            <h2 class="section-title">KEY ACHIEVEMENTS</h2>
-            <div class="achievement-item">
-                <h3><i class="far fa-lightbulb"></i> Instant Payment Service</h3>
-                <p>Built and deployed a real-time Instant Payment Service, which became a major USP for the company among farmers—handling ₹20 Cr+ transactions monthly with 99.9% success rate.</p>
-            </div>
-            <div class="achievement-item">
-                <h3><i class="fas fa-trophy"></i> 2nd Place – Vetechathon</h3>
-                <p>Won 2nd place in Vegrow Techathon for designing a high-impact backend solution.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section-padding">
-        <div class="container">
-            <h2 class="section-title">TECHNICAL SKILLS</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages & Frameworks</h3>
-                    <p>Golang, Python (3.9+), Ruby on Rails, Node.js, TypeScript, Express.js, HTML, CSS</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Databases & Messaging</h3>
-                    <p>MySQL, PostgreSQL, MongoDB, Redis, Kafka, Amazon SQS</p>
-                </div>
-                <div class="skill-category">
-                    <h3>DevOps & Cloud Infrastructure</h3>
-                    <p>Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD, AWS (Lambda, EC2, S3, DynamoDB, Cognito, SNS, SES, EventBridge), GCP</p>
-                </div>
-                <div class="skill-category">
-                    <h3>API Design & Architecture</h3>
-                    <p>RESTful APIs, Microservices, Webhooks, GraphQL</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Integrations</h3>
-                    <p>HubSpot, ZohoCRM, SurveyMonkey, Typeform, Zapier, Razorpay, Twilio, Exotel, Firebase, Kaleyra, Slack, BotSpace</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Testing & Monitoring</h3>
-                    <p>RSpec, Jest, Testify, Postman, New Relic, CloudWatch, Signoz</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Sanjay Kumar. All Rights Reserved.</p>
+            <div class="footer-content">
+                <div class="footer-logo">SK<span>.</span></div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/sanjay-kumar-977a9a155" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sanjaysans" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:smskumar515@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sanjay Kumar. Designed & Built with passion.</p>
+            </div>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

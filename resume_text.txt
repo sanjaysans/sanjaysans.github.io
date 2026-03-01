@@ -1,0 +1,110 @@
+SANJAY KUMAR
+Senior Software Development Engineer
+smskumar515@gmail.com
+ 
++91 9092701806
+ 
+Chennai, India
+ 
+sanjay-kumar-977a9a155
+ 
+sanjaysans.github.io
+ 
+SUMMARY
+Backend-focused Senior Software Engineer with 4+ years of experience in designing and scaling 
+RESTful APIs, building microservices, and integrating payment gateways. Skilled in GoLang, Ruby on 
+Rails, Kafka, Redis, and AWS. Strong foundation in distributed systems, real-time event processing, 
+and cloud-native architectures. Adept at delivering high-performance, business-critical backend 
+solutions in fast-paced environments.
+SKILLS
+Languages & 
+Frameworks
+GoLang, 
+Ruby on Rails, 
+Node.js, 
+Python (Beginner)
+Databases & 
+Messaging
+MySQL, 
+MongoDB, 
+Kafka,
+Redis 
+DevOps & Cloud
+Docker, 
+Kubernetes, 
+Jenkins,
+AWS (S3,  EKS,  EC2,  
+NAT, ECR)
+Testing & Monitoring
+RSpec, 
+Testify, 
+Postman,
+New Relic, 
+Signoz
+EXPERIENCE
+Vegrow
+Senior Software Development Engineer
+•Built a Calling Automation tool using Vibe Coding (Windsurf & Augment), 
+supporting multiple personas and flows across use cases.
+04/2024 – Present
+Chennai
+•Developed a low-latency multilingual voice agent with Gemini Flash Live 
+and Twilio/Exotel; reduced operational load by 30%.
+•Implemented DASH-based video streaming with caching, reducing video 
+buffering by 35% for the end-user.
+•Proposed and deployed multiple infra optimizations (e.g., NAT Gateway, 
+EKS CRON migration); improved average API latency from 5s to 500ms.
+•Designed and launched an Instant Payment Service with ICICI/Razorpay; 
+supports ₹ 20 Cr+ monthly transactions with 99.9% success rate.
+•Built an in-memory traceability module for pricing accuracy, improving 
+Average Cost Price or Average Selling Price calculations by 25%.
+Vegrow
+Software Development Engineer
+•Integrated Finbox, Finstack, and KYC/UPI APIs, automating credit 
+verification and reducing onboarding time by 80%.
+04/2023 – 03/2024
+Chennai
+•Implemented payment lifecycle validations, reducing overdue payments 
+by 30%.
+•Built a Change Data Capture (CDC) microservice for SQL DB, enabling 
+real-time cache invalidation and event generation.•Developed a high-throughput notification engine using GoLang for Slack, 
+WhatsApp, Firebase; handled 1M+ monthly messages.
+Xoxoday
+Software Development Engineer
+•Utilized AWS (Lambda, Cognito, SQS, SES, SNS, DynamoDB, EventBridge) 
+for scalable backend services-reduced infrastructure costs by 20%.
+06/2021 – 03/2023
+Bangalore
+•Integrated HubSpot, ZohoCRM, SurveyMonkey for workflow automation; 
+improved customer onboarding by 20%.
+•Handled 200K+ reward transactions with 99.9% uptime, optimized job 
+processing with Redis queues
+EDUCATION
+CEG, Anna University
+M.Sc. CS Integrated
+8.6 CGPA
+08/2016 – 04/2021
+ACHIEVEMENTS
+Best Individual Contributor Award
+Vegrow
+•Awarded Best Individual Contributor in the Vegrow Tech team for 
+consistent high performance, impactful delivery, and ownership across 
+critical backend systems.
+2025
+•Contributed significantly to projects such as payment integrations, 
+platform stability, and real-time voice agent infrastructure.
+Best Team Innovation Award
+Vegrow
+•Recognized for building and deploying a real-time Instant Payment 
+Service, which became a key differentiator and USP for Vegrow among its 
+farmer network.
+2025
+•Enabled seamless, reliable, and fast payouts, significantly improving trust 
+and farmer retention.
+2nd Place – Vetechathon (Internal Hackathon)
+Vegrow
+•Secured 2nd place in the Vegrow Techathon by designing and presenting a 
+high-impact backend architecture focused on scalability and automation.
+2024
+•Demonstrated innovative problem-solving and cross-functional 
+collaboration under time constraints.

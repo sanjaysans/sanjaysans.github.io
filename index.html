@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanjay Kumar | Senior Software Developer</title>
+    <title>Sanjay Kumar | Senior Backend Engineer</title>
     <meta name="description"
-        content="Senior Software Developer with 3+ years of experience in backend development, API integration, and building scalable systems.">
+        content="Senior Backend Engineer designing and scaling distributed systems for real-time, business-critical workflows.">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,12 +50,15 @@
                 <div class="hero-text fade-in-up">
                     <p class="greeting">Hi, I am</p>
                     <h1 class="name">Sanjay <span>Kumar</span></h1>
-                    <h2 class="role">Senior Software Developer</h2>
+                    <h2 class="role">Senior Backend Engineer</h2>
                     <p class="summary">
-                        Senior Software Developer with 3+ years of experience in backend development, API integration,
-                        and building scalable systems. Skilled in designing payment solutions, optimizing performance,
-                        and leading technical projects. Passionate about using technology to solve real-world problems
-                        efficiently.
+                        Senior Backend Engineer designing and scaling distributed systems for real-time,
+                        business-critical workflows.<br><br>
+                        Currently building a production-grade multilingual AI voice automation platform (Pipecat-based)
+                        integrating telephony, STT, LLMs, and TTS with advanced interruption handling and low-latency
+                        optimizations.<br><br>
+                        Experienced in architecting event-driven systems and real-time payment infrastructure handling
+                        ₹30Cr+ monthly transactions with 99.9% reliability.
                     </p>
                     <div class="hero-actions">
                         <a href="resume/resume.pdf" download class="btn-primary">
@@ -89,27 +92,24 @@
                     <div class="timeline-item glass-card slide-in-left">
                         <div class="timeline-header">
                             <div>
-                                <h3>Senior Software Development Engineer</h3>
+                                <h3>Senior Backend Engineer</h3>
                                 <h4 class="company">Vegrow <span class="location"><i class="fas fa-map-marker-alt"></i>
                                         Chennai</span></h4>
                             </div>
-                            <div class="timeline-date">04/2024 – Present</div>
+                            <div class="timeline-date">Jul 2024 – Present</div>
                         </div>
                         <ul class="bullet-list">
-                            <li>Built a multilingual voice agent prototype using <strong>Python 3.9</strong> and
-                                <strong>Gemini Flash Exp</strong> with minimal latency; integrated Twilio/Exotel for
-                                telephony—projected to reduce ops manpower by 30%.
-                            </li>
-                            <li>Developed a certified farm marketplace app using basic DASH protocol with
-                                caching—reduced video buffering by 35%.</li>
-                            <li>Proposed and deployed infrastructure optimizations (NAT Gateway, CRON job migration to
-                                AWS EKS, SQL query optimization & indexing)—reduced API latency from <strong>30s to
-                                    500ms</strong>.</li>
-                            <li>Designed and launched Instant Payment Service using ICICI and Razorpay payout APIs—now
-                                handling <strong>6,000+ monthly IMPS/UPI transactions worth ₹20 Cr+</strong> with 99.9%
-                                success rate.</li>
-                            <li>Engineered an in-memory graph-based material traceability system to improve ACP/ASP
-                                calculations—boosted pricing accuracy by 25%.</li>
+                            <li>Architected and led a production-grade multilingual AI voice automation platform
+                                integrating Exotel, Deepgram, Sarvam, Gemini, OpenAI, and Cartesia via a 3-layer
+                                pipeline; handling <strong>10K+ calls/day</strong> with ~0.7s avg response latency and
+                                20 parallel channels; reduced operational load by 30%.</li>
+                            <li>Implemented real-time orchestration (VAD tuning, interruption control, silent detection,
+                                low-latency filler injection) and function-calling + RAG workflows; improved CQS score
+                                by 25%.</li>
+                            <li>Built and scaled real-time payment infrastructure supporting <strong>₹30Cr+ monthly
+                                    transactions</strong> at peak ~1K TPM with 99.8% reliability across Razorpay, HSBC,
+                                and ICICI (IMPS, UPI, NEFT); implemented idempotency, transactional locking,
+                                auto-retries, and secondary status checks.</li>
                         </ul>
                     </div>
 
@@ -121,20 +121,21 @@
                                 <h4 class="company">Vegrow <span class="location"><i class="fas fa-map-marker-alt"></i>
                                         Chennai</span></h4>
                             </div>
-                            <div class="timeline-date">04/2023 – 03/2024</div>
+                            <div class="timeline-date">Apr 2023 – Jun 2024</div>
                         </div>
                         <ul class="bullet-list">
-                            <li>Integrated Finbox, Finstack (bank analysis), KYC, and UPI APIs—automated credit checks
-                                and onboarding; <strong>reduced verification time by 80%</strong>.</li>
-                            <li>Enforced business-specific credit/payment logic—cut overdue payments by 30%.</li>
-                            <li>Built a SQL CDC microservice for real-time cache invalidation and audit logging—achieved
-                                99.9% cache accuracy.</li>
-                            <li>Developed a scalable <strong>Golang</strong> notification system for WhatsApp, Slack,
-                                SMS & Firebase—handled <strong>1M+ messages/month</strong> with 98% delivery rate.</li>
+                            <li>Built a high-throughput Change Data Capture (CDC) microservice for a 17GB SQL database
+                                processing up to <strong>10K events/sec</strong>; centralized real-time cache
+                                invalidation and event generation, eliminating cross-service invalidation logic.</li>
+                            <li>Designed high-throughput notification systems (Slack, WhatsApp, Firebase) handling
+                                <strong>10K+ messages per minute</strong>.
+                            </li>
+                            <li>Integrated credit verification, KYC, and UPI/payment workflows, <strong>reducing
+                                    onboarding time by 80%</strong> and improving payment lifecycle reliability.</li>
                         </ul>
                     </div>
 
-                    <!-- Xoxoday -->
+                    <!-- Xoxoday 1 -->
                     <div class="timeline-item glass-card slide-in-left">
                         <div class="timeline-header">
                             <div>
@@ -142,17 +143,72 @@
                                 <h4 class="company">Xoxoday <span class="location"><i class="fas fa-map-marker-alt"></i>
                                         Bangalore</span></h4>
                             </div>
-                            <div class="timeline-date">06/2021 – 03/2023</div>
+                            <div class="timeline-date">Jun 2021 – Mar 2023</div>
                         </div>
                         <ul class="bullet-list">
-                            <li>Led integrations with HubSpot, ZohoCRM, SurveyMonkey, Typeform, and Zapier for reward
-                                workflow automation—increased new customer onboarding by 20%.</li>
-                            <li>Contributed to core backend services for consumer transactions and 3rd-party
-                                APIs—processed <strong>500K+ transactions</strong> with 99.8% uptime.</li>
-                            <li>Improved reliability using <strong>Redis Bull queues</strong> and fail-safe logic—cut
-                                job processing time by 50%, reduced transaction failures by 35%.</li>
-                            <li>Built scalable AWS-based services (Lambda, Cognito, SQS, SNS, SES, DynamoDB,
-                                EventBridge)—reduced infra costs by 20%.</li>
+                            <li>Developed scalable backend services using AWS (Lambda, SQS, SNS, SES, DynamoDB,
+                                EventBridge) and event-driven architecture patterns.</li>
+                            <li>Processed <strong>200K+ reward transactions</strong> with 99.9% uptime; optimized job
+                                processing using Redis queues.</li>
+                            <li>Contributed to Razorpay payment gateway integration, implementing API workflows for
+                                order creation, payment verification, webhook handling, and transaction status
+                                reconciliation.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Xoxoday Intern -->
+                    <div class="timeline-item glass-card slide-in-right">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Engineer Intern</h3>
+                                <h4 class="company">Xoxoday <span class="location"><i class="fas fa-map-marker-alt"></i>
+                                        Bangalore</span></h4>
+                            </div>
+                            <div class="timeline-date">Dec 2020 – May 2021</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Contributed to backend microservices using Node.js and MySQL; supported production bug
+                                fixes and feature development.</li>
+                            <li>Integrated third-party platforms (HubSpot, ZohoCRM, SurveyMonkey) to automate customer
+                                onboarding and workflow systems.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Freelance -->
+                    <div class="timeline-item glass-card slide-in-left">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Backend Developer (Freelance)</h3>
+                                <h4 class="company">Freelancer.com <span class="location"><i
+                                            class="fas fa-map-marker-alt"></i>
+                                        Chennai</span></h4>
+                            </div>
+                            <div class="timeline-date">May 2020 – Dec 2020</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Designed and built a backend system for an online poker application using Node.js and
+                                MySQL, implementing game logic handling, secure transaction flows, and real-time table
+                                state management.</li>
+                            <li>Built multiple small-use-case Flutter applications for clients using Firebase (Auth,
+                                Firestore, Cloud Functions), delivering end-to-end mobile solutions without a dedicated
+                                backend layer.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Virtusa Intern -->
+                    <div class="timeline-item glass-card slide-in-right">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Engineer Intern</h3>
+                                <h4 class="company">Virtusa <span class="location"><i class="fas fa-map-marker-alt"></i>
+                                        Chennai</span></h4>
+                            </div>
+                            <div class="timeline-date">May 2019 – Oct 2019</div>
+                        </div>
+                        <ul class="bullet-list">
+                            <li>Worked on microservice development and deployment using Node.js, Docker, Kubernetes,
+                                Istio, and GCP.</li>
+                            <li>Assisted in containerization, CI/CD setup, and cloud-based service orchestration.</li>
                         </ul>
                     </div>
                 </div>
@@ -167,6 +223,37 @@
 
                     <div class="project-card glass-card scale-up">
                         <div class="project-content">
+                            <h3>Postman for AI Voice Agents</h3>
+                            <div class="project-date">Feb 2026 - Present</div>
+                            <p>Architected a modular three-layer voice AI pipeline (STT → LLM → TTS) using Python,
+                                FastAPI, and Pipecat. Built a zero-database, real-time testing sandbox enabling rapid
+                                prototyping and evaluation of Deepgram, OpenAI, Gemini, Cartesia, and Sarvam. Engineered
+                                a React + TypeScript dashboard with live audio visualizers and real-time observability.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://my-voice.smskumar515.workers.dev/" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i> Live View</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.1s">
+                        <div class="project-content">
+                            <h3>My Funds</h3>
+                            <div class="project-date">Dec 2025 - Feb 2026</div>
+                            <p>Cross-platform personal finance application using React, TypeScript, Vite, and Firebase.
+                                Engineered a privacy-first, offline-capable voice transaction recorder. Integrated
+                                Google Gemini AI for personalized financial insights. Packaged as a PWA and native
+                                mobile app.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="http://my-funds.web.app/" target="_blank"><i class="fas fa-external-link-alt"></i>
+                                Live View</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.2s">
+                        <div class="project-content">
                             <h3>Food Ordering App - CASSIA</h3>
                             <div class="project-date">Aug 2020 - Nov 2020</div>
                             <p>Online food ordering app developed using Flutter & Firebase. It also has an integration
@@ -178,7 +265,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card scale-up" style="transition-delay: 0.1s">
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.3s">
                         <div class="project-content">
                             <h3>Attendance App</h3>
                             <div class="project-date">Apr 2020 - May 2020</div>
@@ -192,7 +279,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card scale-up" style="transition-delay: 0.2s">
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.4s">
                         <div class="project-content">
                             <h3>Book_olx</h3>
                             <div class="project-date">Nov 2018 - Dec 2018</div>
@@ -205,7 +292,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card glass-card scale-up" style="transition-delay: 0.3s">
+                    <div class="project-card glass-card scale-up" style="transition-delay: 0.5s">
                         <div class="project-content">
                             <h3>Facial Recognition System</h3>
                             <div class="project-date">May 2018 - Jun 2018</div>
@@ -232,8 +319,8 @@
                         <div class="skill-icon"><i class="fas fa-code"></i></div>
                         <h3>Languages & Frameworks</h3>
                         <div class="tags">
-                            <span>Golang</span><span>Python (3.9+)</span><span>Ruby on
-                                Rails</span><span>Node.js</span><span>TypeScript</span><span>Express.js</span><span>HTML/CSS</span>
+                            <span>Go (Primary)</span><span>Node.js</span><span>Ruby on
+                                Rails</span><span>Python</span><span>TypeScript</span><span>Express.js</span><span>HTML/CSS</span>
                         </div>
                     </div>
 
@@ -241,26 +328,26 @@
                         <div class="skill-icon"><i class="fas fa-database"></i></div>
                         <h3>Databases & Messaging</h3>
                         <div class="tags">
-                            <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Kafka</span><span>Amazon
-                                SQS</span>
+                            <span>MySQL</span><span>MongoDB</span><span>Kafka</span><span>Redis</span>
                         </div>
                     </div>
 
                     <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.2s">
-                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-                        <h3>Cloud & DevOps</h3>
+                        <div class="skill-icon"><i class="fas fa-microphone-alt"></i></div>
+                        <h3>AI Voice & LLM Systems</h3>
                         <div class="tags">
-                            <span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>GitHub
-                                Actions</span><span>CI/CD</span><span>AWS (Lambda, EC2, S3, DynamoDB, Cognito, SNS, SES,
-                                EventBridge)</span><span>GCP</span>
+                            <span>STT: Deepgram, Sarvam</span><span>LLMs: Gemini, OpenAI</span><span>TTS: Cartesia,
+                                Sarvam</span><span>Function Calling & RAG Pipelines</span><span>Real-Time Call
+                                Orchestration (Pipecat, VAD, interruption strategies)</span>
                         </div>
                     </div>
 
                     <div class="skill-category glass-card fade-in-up" style="transition-delay: 0.3s">
-                        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
-                        <h3>API & Architecture</h3>
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Cloud & DevOps</h3>
                         <div class="tags">
-                            <span>RESTful APIs</span><span>Microservices</span><span>Webhooks</span><span>GraphQL</span>
+                            <span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>GitHub
+                                Actions</span><span>CI/CD Pipelines</span>
                         </div>
                     </div>
 
@@ -268,7 +355,7 @@
                         <div class="skill-icon"><i class="fas fa-plug"></i></div>
                         <h3>Tools & Integrations</h3>
                         <div class="tags">
-                            <span>HubSpot</span><span>ZohoCRM</span><span>Zapier</span><span>Razorpay</span><span>Twilio</span><span>Exotel</span><span>Firebase</span><span>Slack</span>
+                            <span>Razorpay</span><span>Twilio</span><span>Exotel</span><span>Firebase</span><span>HubSpot</span><span>ZohoCRM</span><span>Zapier</span><span>Slack</span><span>Postman</span>
                         </div>
                     </div>
 
@@ -276,8 +363,8 @@
                         <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
                         <h3>Testing & Monitoring</h3>
                         <div class="tags">
-                            <span>RSpec</span><span>Jest</span><span>Testify</span><span>Postman</span><span>New
-                                Relic</span><span>CloudWatch</span><span>Signoz</span>
+                            <span>RSpec</span><span>Jest</span><span>Testify</span><span>New
+                                Relic</span><span>CloudWatch</span><span>SigNoz</span>
                         </div>
                     </div>
 
@@ -297,8 +384,8 @@
                             <div class="award-details">
                                 <h3>Best Individual Contributor Award</h3>
                                 <div class="award-meta">Vegrow | 2025</div>
-                                <p>Awarded for architecting a low-latency multilingual AI Voice Agent using Gemini Flash
-                                    Exp and telephony platforms. Reduced ops workload by 30%.</p>
+                                <p>Recognized for high-impact backend contributions across AI voice infrastructure,
+                                    payment systems, and platform reliability initiatives.</p>
                             </div>
                         </div>
                         <div class="award-item glass-card slide-in-left" style="transition-delay: 0.1s">
@@ -306,8 +393,8 @@
                             <div class="award-details">
                                 <h3>Best Team Innovation Award</h3>
                                 <div class="award-meta">Vegrow | 2025</div>
-                                <p>Recognized for designing and launching a real-time Instant Payment Service (₹20 Cr+
-                                    monthly processing) with 99.9% reliability, improving farmer trust.</p>
+                                <p>Awarded for architecting and delivering a real-time Instant Payment Service that
+                                    became a key differentiator for the organization.</p>
                             </div>
                         </div>
                         <div class="award-item glass-card slide-in-left" style="transition-delay: 0.2s">
@@ -315,8 +402,8 @@
                             <div class="award-details">
                                 <h3>2nd Place – Vetechathon</h3>
                                 <div class="award-meta">Vegrow | 2024</div>
-                                <p>Secured 2nd place in the company-wide hackathon by delivering a scalable,
-                                    event-driven backend architecture focused on automation.</p>
+                                <p>Designed and presented a scalable backend architecture focused on automation and
+                                    system efficiency under time constraints.</p>
                             </div>
                         </div>
                     </div>
@@ -328,12 +415,12 @@
                             <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
                             <div class="edu-details">
                                 <h3>M.Sc. Computer Science (Integrated)</h3>
-                                <h4>CEG, Anna University</h4>
+                                <h4>College of Engineering, Guindy</h4>
                                 <div class="edu-meta">
                                     <span><i class="far fa-calendar"></i> Aug 2016 – Apr 2021</span>
                                     <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
                                 </div>
-                                <div class="edu-score">CGPA: 8.64 / 10</div>
+                                <div class="edu-score">CGPA: 8.6 / 10</div>
                             </div>
                         </div>
 
@@ -341,10 +428,11 @@
                             <div class="edu-icon"><i class="fas fa-school"></i></div>
                             <div class="edu-details">
                                 <h3>Higher Secondary Certificate (HSC)</h3>
-                                <h4>State Board</h4>
+                                <h4>AMM School</h4>
                                 <div class="edu-meta">
-                                    <span><i class="far fa-calendar"></i> 2015 – 2016</span>
+                                    <span><i class="far fa-calendar"></i> Jun 2015 – Apr 2016</span>
                                 </div>
+                                <div class="edu-score">Percentage: 97.25%</div>
                             </div>
                         </div>
 
@@ -352,10 +440,11 @@
                             <div class="edu-icon"><i class="fas fa-school"></i></div>
                             <div class="edu-details">
                                 <h3>Secondary School Leaving Certificate (SSLC)</h3>
-                                <h4>State Board</h4>
+                                <h4>AMM School</h4>
                                 <div class="edu-meta">
-                                    <span><i class="far fa-calendar"></i> 2013 – 2014</span>
+                                    <span><i class="far fa-calendar"></i> Jun 2013 – Apr 2014</span>
                                 </div>
+                                <div class="edu-score">Percentage: 93.6%</div>
                             </div>
                         </div>
                     </div>
